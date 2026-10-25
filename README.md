@@ -22,8 +22,9 @@ Cycle through the prints with `omarchy theme bg next`. Update with `git pull` in
 cloned folder.
 
 `omarchy theme install <url>` also works, but Omarchy drops a downloaded theme's
-`hyprland.lua` and `neovim.lua`, so you lose the parchment window border, the terminal
-opacity tweak and the kanagawa.nvim colorscheme. The symlink install keeps everything.
+`hyprland.lua`, `neovim.lua` and `vscode.json`, so you lose the parchment window border,
+the terminal opacity tweak, and the kanagawa colorschemes for Neovim and VS Code. The
+symlink install keeps everything.
 
 The repo is about 150 MB: the backgrounds are 3840×2160 JPEGs.
 
