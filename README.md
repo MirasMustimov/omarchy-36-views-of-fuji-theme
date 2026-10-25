@@ -1,4 +1,4 @@
-# 36 Views of Fuji — an Omarchy theme
+# Thirty-six Views of Mount Fuji — an Omarchy theme
 
 An [Omarchy](https://omarchy.org) theme built on the stock Kanagawa palette, with all
 46 prints of Katsushika Hokusai's *Thirty-six Views of Mount Fuji* (冨嶽三十六景,
@@ -11,11 +11,11 @@ An [Omarchy](https://omarchy.org) theme built on the stock Kanagawa palette, wit
 Clone the repo somewhere out of the way and symlink it into your themes folder:
 
 ```bash
-git clone https://github.com/MirasMustimov/omarchy-36-views-of-fuji-theme.git \
-  ~/.local/share/omarchy-themes/omarchy-36-views-of-fuji-theme
-ln -s ~/.local/share/omarchy-themes/omarchy-36-views-of-fuji-theme \
-  ~/.config/omarchy/themes/36-views-of-fuji
-omarchy theme set 36-views-of-fuji
+git clone https://github.com/MirasMustimov/omarchy-thirty-six-views-of-mount-fuji-theme.git \
+  ~/.local/share/omarchy-themes/omarchy-thirty-six-views-of-mount-fuji-theme
+ln -s ~/.local/share/omarchy-themes/omarchy-thirty-six-views-of-mount-fuji-theme \
+  ~/.config/omarchy/themes/thirty-six-views-of-mount-fuji
+omarchy theme set thirty-six-views-of-mount-fuji
 ```
 
 Cycle through the prints with `omarchy theme bg next`. Update with `git pull` in the
@@ -34,13 +34,13 @@ Switch to another theme first, then remove the symlink and the clone:
 
 ```bash
 omarchy theme set kanagawa   # or any other theme
-rm ~/.config/omarchy/themes/36-views-of-fuji
-rm -rf ~/.local/share/omarchy-themes/omarchy-36-views-of-fuji-theme
+rm ~/.config/omarchy/themes/thirty-six-views-of-mount-fuji
+rm -rf ~/.local/share/omarchy-themes/omarchy-thirty-six-views-of-mount-fuji-theme
 ```
 
 Leave the trailing slash off the first `rm` so it removes the link, not the files it
 points to. If you used `omarchy theme install`, the theme is a plain folder: run
-`rm -rf ~/.config/omarchy/themes/36-views-of-fuji` instead.
+`rm -rf ~/.config/omarchy/themes/thirty-six-views-of-mount-fuji` instead.
 
 ## What's in it
 
